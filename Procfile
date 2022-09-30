@@ -1,1 +1,1 @@
-worker: java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.jar
+worker: java -Dserver.port=8088 $JAVA_OPTS -jar target/*.jar
